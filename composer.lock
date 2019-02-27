@@ -456,16 +456,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "5.8.x-dev",
+            "version": "v5.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "057ace25d8712a7b3142e10dd2e51f436bea2a0f"
+                "reference": "e6c8aa0e39d8f91068ad1c299546536e9f25ef63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/057ace25d8712a7b3142e10dd2e51f436bea2a0f",
-                "reference": "057ace25d8712a7b3142e10dd2e51f436bea2a0f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e6c8aa0e39d8f91068ad1c299546536e9f25ef63",
+                "reference": "e6c8aa0e39d8f91068ad1c299546536e9f25ef63",
                 "shasum": ""
             },
             "require": {
@@ -565,7 +565,8 @@
                 "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (^3.0).",
                 "symfony/css-selector": "Required to use some of the crawler integration testing tools (^4.2).",
                 "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (^4.2).",
-                "symfony/psr-http-message-bridge": "Required to psr7 bridging features (^1.1)."
+                "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^1.1).",
+                "wildbit/swiftmailer-postmark": "Required to use Postmark mail driver (^3.0)."
             },
             "type": "library",
             "extra": {
@@ -598,7 +599,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2019-02-23T15:01:19+00:00"
+            "time": "2019-02-26T15:42:06+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -827,16 +828,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.13.0",
+            "version": "2.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "d77e6cd59e1bb7aad6ad8060a61a440251627ed0"
+                "reference": "7a748bc397bd14b8a43b13beca73a8ffec554fd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d77e6cd59e1bb7aad6ad8060a61a440251627ed0",
-                "reference": "d77e6cd59e1bb7aad6ad8060a61a440251627ed0",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/7a748bc397bd14b8a43b13beca73a8ffec554fd9",
+                "reference": "7a748bc397bd14b8a43b13beca73a8ffec554fd9",
                 "shasum": ""
             },
             "require": {
@@ -883,7 +884,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-02-20T20:39:03+00:00"
+            "time": "2019-02-25T20:57:37+00:00"
         },
         {
             "name": "nikic/php-parser",
