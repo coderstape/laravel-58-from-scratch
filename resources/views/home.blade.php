@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <div class="new-class">You are logged in!c</div>
                 </div>
             </div>
         </div>
